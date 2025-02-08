@@ -30,7 +30,7 @@ public class AgendaContatos {
         if (!this.agendaContatoMap.isEmpty()){
            numeroPorNome= (Integer)this.agendaContatoMap.get(nome);
            if(numeroPorNome ==null){
-               System.out.println("Contato não encontrado.");
+               System.out.println("Contato não encontrado. ");
            }
         }
         return numeroPorNome;
